@@ -1,9 +1,11 @@
-package ProjectManagement;
-public class Employee {
+package org.example;
+
+public class Resource {
+
 	private int name;
 
 	public void getName() {
-		// TODO - implement Employee.getName
+		// TODO - implement Resource.getName
 		throw new UnsupportedOperationException();
 	}
 
@@ -15,8 +17,8 @@ public class Employee {
 		this.name = name;
 	}
 
-	public Employee() {
-		// TODO - implement Employee.Employee
+	public Resource() {
+		// TODO - implement Resource.Resource
 		throw new UnsupportedOperationException();
 	}
 

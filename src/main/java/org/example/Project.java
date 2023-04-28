@@ -1,4 +1,4 @@
-package ProjectManagement;
+package org.example;
 
 public class Project {
 

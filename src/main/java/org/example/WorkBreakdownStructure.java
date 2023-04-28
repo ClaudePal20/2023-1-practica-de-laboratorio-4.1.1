@@ -1,4 +1,6 @@
-package ProjectManagement;
+package org.example;
+
+import java.util.ArrayList;
 
 public class WorkBreakdownStructure {
 
