@@ -8,10 +8,8 @@ public class Project {
 	private String theWorkBreakdownStructure;
 
 	public void getName() {
-
 		System.out.println("Project: " + name);
 		// TODO - implement Project.getName
-
 	}
 
 	/**

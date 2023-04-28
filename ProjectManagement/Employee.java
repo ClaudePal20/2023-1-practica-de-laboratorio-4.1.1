@@ -1,7 +1,5 @@
 package ProjectManagement;
-
 public class Employee {
-
 	private int name;
 
 	public void getName() {

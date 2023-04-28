@@ -3,7 +3,7 @@ package ProjectManagement;
 public class WorkBreakdownStructure {
 
 	private String name;
-	private String theTasks;
+	private ArrayList<String> theTasks;
 
 	public String getName() {
 		// TODO - implement WorkBreakdownStructure.getName
@@ -15,14 +15,18 @@ public class WorkBreakdownStructure {
 	}
 
 	public void getTheTasks() {
+
 		// TODO - implement WorkBreakdownStructure.getTheTasks
+		for(int i = 0; i < theTasks.size(); i++) {
+			System.out.println("Task: " + theTasks.get(i));
+		}
 	}
 
 	/**
 	 * 
 	 * @param theTasks
 	 */
-	public void setTheTasks(String theTasks) {
+	public void setTheTasks(ArrayList<String> theTasks) {
 		this.theTasks = theTasks;
 	}
 
