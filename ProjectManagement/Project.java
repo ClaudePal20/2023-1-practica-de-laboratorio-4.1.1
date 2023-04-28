@@ -2,12 +2,14 @@ package ProjectManagement;
 
 public class Project {
 
-	private int name;
-	private int theResources;
-	private int theEmployees;
-	private int theWorkBreakdownStructure;
+	private String name;
+	private String theResources;
+	private ArrayList<String> theEmployees;
+	private String theWorkBreakdownStructure;
 
 	public void getName() {
+
+		System.out.println("Project: " + name);
 		// TODO - implement Project.getName
 
 	}
@@ -29,12 +31,15 @@ public class Project {
 	 * 
 	 * @param theResources
 	 */
-	public void setTheResources(int theResources) {
+	public void setTheResources(String theResources) {
 		this.theResources = theResources;
 	}
 
 	public void getTheEmployees() {
 		// TODO - implement Project.getTheEmployees
+		for(int i = 0; i < theEmployees.size(); i++) {
+			System.out.println("Employee: " + theEmployees.get(i));
+		}
 		throw new UnsupportedOperationException();
 	}
 
@@ -42,7 +47,7 @@ public class Project {
 	 * 
 	 * @param theEmployees
 	 */
-	public void setTheEmployees(int theEmployees) {
+	public void setTheEmployees(ArrayList<String>) {
 		this.theEmployees = theEmployees;
 	}
 
@@ -55,7 +60,7 @@ public class Project {
 	 * 
 	 * @param theWorkBreakdownStructure
 	 */
-	public void setTheWorkBreakdownStructure(int theWorkBreakdownStructure) {
+	public void setTheWorkBreakdownStructure(String theWorkBreakdownStructure) {
 		this.theWorkBreakdownStructure = theWorkBreakdownStructure;
 	}
 
