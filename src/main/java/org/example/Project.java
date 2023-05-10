@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Project {
 
 	private String name;
@@ -16,7 +18,7 @@ public class Project {
 	 * 
 	 * @param name
 	 */
-	public void setName(int name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
@@ -45,7 +47,7 @@ public class Project {
 	 * 
 	 * @param theEmployees
 	 */
-	public void setTheEmployees(ArrayList<String>) {
+	public void setTheEmployees(ArrayList<String> theEmployees) {
 		this.theEmployees = theEmployees;
 	}
 

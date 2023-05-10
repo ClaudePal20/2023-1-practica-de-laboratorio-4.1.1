@@ -1,13 +1,14 @@
 package org.example;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class WorkBreakdownStructure {
 
-	private String name;
-	private ArrayList<String> theTasks;
+	private static String name;
+	private static ArrayList<String> theTasks;
 
-	public String getName() {
+	public static String getName() {
 		// TODO - implement WorkBreakdownStructure.getName
 		return name;
 	}
@@ -16,12 +17,10 @@ public class WorkBreakdownStructure {
 		this.name = name;
 	}
 
-	public void getTheTasks() {
+	public static ArrayList<String> getTheTasks() {
 
 		// TODO - implement WorkBreakdownStructure.getTheTasks
-		for(int i = 0; i < theTasks.size(); i++) {
-			System.out.println("Task: " + theTasks.get(i));
-		}
+		return theTasks;
 	}
 
 	/**
